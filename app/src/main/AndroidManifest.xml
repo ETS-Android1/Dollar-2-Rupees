@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.NDY.dollar2rupees">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dollar_rupee_exchange2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dollar_rupee_exchange2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dollar2Rupees">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
